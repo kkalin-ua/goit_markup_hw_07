@@ -4,9 +4,10 @@
 }
 .section-team__list {
 	display: flex;
-}
-.section-team__list .section-team__item + .section-team__item {
-	margin-left: 30px;
+
+	& .section-team__item + .section-team__item {
+		margin-left: 30px;
+	}
 }
 .section-team__item {
 	width: 270px;

@@ -1,6 +1,10 @@
 // === section-advantage ===
 .section-advantage__list {
 	display: flex;
+
+	& .list + .list {
+		margin-left: 30px;
+	}
 }
 .section-advantage__item {
 	width: 270px;
@@ -35,9 +39,7 @@
 	background-image: url(../images/astronaut.png);
 	background-size: 55px 60px;
 }
-.section-advantage__list .list + .list {
-	margin-left: 30px;
-}
+
 .section-advantage__h3 {
 	font-weight: 700;
 	font-size: 14px;

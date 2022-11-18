@@ -93,19 +93,21 @@ header {
 }
 .page-header {
 	display: flex;
+
+	& .page-header__item + .page-header__item {
+		margin-left: 50px;
+	}
 }
 .header-adress {
 	display: flex;
 	margin-left: auto;
+
+	& .header-adress__items:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 .header-navigation,
 .header-container {
 	display: flex;
 	align-items: center;
-}
-.page-header .page-header__item + .page-header__item {
-	margin-left: 50px;
-}
-.header-adress .header-adress__items:not(:last-child) {
-	margin-right: 30px;
 }

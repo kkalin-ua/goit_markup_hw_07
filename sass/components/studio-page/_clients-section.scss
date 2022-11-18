@@ -18,6 +18,17 @@
 
 	transition: color 250ms, border-color 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		border-color: var(--blue-color);
+		color: var(--blue-color);
+		fill: var(--blue-color);
+	}
+
+	&:focus .client__logo {
+		fill: var(--blue-color);
+	}
 }
 .client__logo {
 	padding: 16px 32px;
@@ -27,13 +38,4 @@
 	&:focus {
 		fill: var(--blue-color);
 	}
-}
-.clients__link:hover,
-.clients__link:focus {
-	border-color: var(--blue-color);
-	color: var(--blue-color);
-	fill: var(--blue-color);
-}
-.clients__link:focus .client__logo {
-	fill: var(--blue-color);
 }
