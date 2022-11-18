@@ -1,0 +1,10 @@
+/* ======header==== */
+
+.section-cap-btn:hover,
+.section-cap-btn:focus {
+	color: var(--blue-color);
+}
+
+/* ===== footer ===== */
+
+/* ===== portfolio.html ====== */
